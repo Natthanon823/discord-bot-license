@@ -39,7 +39,7 @@ class ck_license(commands.Cog):
         role = guild.get_role(int(role_id))
         await member.add_roles(role)
 
-    @tasks.loop(seconds = 5)
+    @tasks.loop(seconds = 60)
     async def check_license(self):
         for guild in self.bot.guilds:
             a = ck_db._checkLicenseActive(str(guild.id))
