@@ -1,0 +1,4 @@
+discord.py==1.7.3
+discord_py_slash_command==3.0.3
+pymongo==4.0.1
+python_dateutil==2.8.2
