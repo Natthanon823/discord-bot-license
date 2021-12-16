@@ -8,6 +8,9 @@ Discord bot that manages expiration of roles with subscriptions!
 
 
 # Commands (PREFIX: use slash)
+
  - /generate <tagrole> <time> <count>
+ 
  - /redeem <licensekey>
+ 
  - /delete <licensekey>
